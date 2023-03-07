@@ -4,7 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
     <title>The Smart Home Admin</title>
   </head>
-  <body></body>
+  <body>
+    <aside class="sidebar">
+      <header class="sidebar__header">The Smart Home</header>
+      <ul class="sidebar__list">
+        <li><a class="nav-link" href="#">Dashboard</a></li>
+        <li><a class="nav-link" href="#">Orders</a></li>
+        <li><a class="nav-link" href="#">Products</a></li>
+        <ul class="sidebar__product_list">
+          <li><a class="nav-link" href="#">Add Product</a></li>
+          <li><a class="nav-link" href="#">Edit Product</a></li>
+        </ul>
+        <li><a class="nav-link" href="#">Customers</a></li>
+        <ul class="sidebar__customer_list">
+          <li><a class="nav-link" href="#">Add Customer</a></li>
+          <li><a class="nav-link" href="#">Edit Customer</a></li>
+        </ul>
+      </ul>
+    </aside>
+  </body>
 </html>
